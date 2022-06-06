@@ -1,101 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <title>Hello World!</title>
-
-    <!-- Meta tags for SEO and social sharing -->
-    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-    <meta
-      name="description"
-      content="A simple website, built with Glitch. Remix it to get your own."
-    />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="Hello World!" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
-    <meta
-      property="og:description"
-      content="A simple website, built with Glitch. Remix it to get your own."
-    />
-    <meta
-      property="og:image"
-      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
-    />
-    <meta name="twitter:card" content="summary" />
-
-    <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <!--
-      This is the body of the page
-      Look at the elements and see how they appear in the rendered page on the right
-      Each element is defined using tags, with < and > indicating where each one opens and closes
-      There are elements for sections of the page, images, text, and more
-      The elements include attributes referenced in the CSS for the page style
-    -->
-
-    <!-- The wrapper and content divs set margins and positioning -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <!-- This is the start of content for our page -->
-        <h1 class="title">Hello World!</h1>
-
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <!-- Instructions on using this project -->
-        <div class="instructions">
-          <h2>
-            Using this project
-          </h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out README.md in the editor for
-            more info and next steps you can take!
-          </p>
-          <!-- ADD BUTTON HERE -->
-          
-          <!-- Once you've added the button from the readme, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/n.jpg?v=1654547700987" alt="logo" width="40px" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#lugar">Como Llegar </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active text-white" href="#blank">📧 </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active text-white" href="tel:+34667598480">📞Llamar Ahora</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                     <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                        <li><a class="dropdown-item" href="https://form.jotform.com/221563398001350" target="_blank">Presupuesto</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <main>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item">
+               <img src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/5.jpg?v=1654547617795" alt="" height="800px"  width="100%">
+            </div>
+            <div class="carousel-item">
+               <img src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/6.jpg?v=1654547646481" alt="" height="800px" width="100%">
+            </div>
+            <div class="carousel-item active">
+               <img src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/7.jpg?v=1654547671398" alt="" height="800px" width="100%">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
       </div>
-    </div>
-    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
+      <hr class="WUdCTb">
+      <div id="blank" class="container">
+         <h3>Presupuesto online</h3>
+         <form 
+            action="https://formspree.io/f/xqknqyqr"
+            method="POST">
+            <div class="form">
+               <label>
+               Tu correo electrónico:
+               <input type="email"  class="text" name="email" placeholder="Tu correo electrónico..." required="">
+               </label>
+               <br>
+               <label>
+               Tu teléfono:
+               <textarea class="text" name="message" placeholder="Tu teléfono..." required=""></textarea>
+               </label>
+            </div>
+            <div class="header">
+               <button id="btn" class="btn" type="submit">SOLICITAR</button>
+            </div>
+         </form>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7 one">
+            <h2 class="featurette-Заголовок">GESTORIA ADMINISTRATIVA. </h2>
+            <p class="lead">
+               Realizamos todo tipo de gestiones relacionadas con vehículos como matriculaciones, naúticas, transportes y asesoría fiscal. Somos especialistas en importaciones, transmisiones, rehabilitaciones, bajas, de vehículos, así como abanderamientos, cambios de dominio, cambios de nombre, así como la obtención de todo tipo de certificados que precise referente a las embarcaciones. Disponemos también de asesoría fiscal,laboral y contable para empresas.Nuestro deseo constante es obtener su confianza y satisfacción, para lo cual, incidimos, especialmente, en su despreocupación por las gestiones que nos encomiende y en su puntual información sobre éstas.Buscamos soluciones prácticas y adecuadas a cada situación particular, priorizando en lo posible las soluciones consensuadas y los acuerdos personalizados.
+            </p>
+         </div>
+         <div class="col-md-5">
+            <img class="foto1" src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/87.jpeg?v=1654547754497" alt="" width="500px" height="400px">
+         </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7 two">
+            <h2 class="featurette-Заголовок">Tienes dudas físcales?❓</h2>
+            <p class="lead"> Tienes que hacer la declaración de la renta?📄 Quieres hacerte autónomo?
+               ⛏️O quieres realizar algun trámite en la DGT?.
+               Ven a vernos a calle victoría número 3🏢💺, no puedes venir?🥁 
+               Llamanos☎️ al 667598480 o envianos un whatsapp y nos adaptamos a tí!.
+            </p>
+         </div>
+         <div class="col-md-5">
+            <img class="foto2" src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/88.jpeg?v=1654547788954" alt="" width="500px" height="400px">
+         </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7 three">
+            <h2 class="featurette-Заголовок">Declaración de Renta y Patrimonio 🧾.</h2>
+            <p class="lead"> Elaboramos su declaración de la renta y patrimonio de la forma más eficaz, transparente y cómoda posible. Le asesoraremos en todo momento sobre cualquier aspecto relacionado con las obligaciones fiscales, IRPF, o la obligatoriedad o no de realizar el ejercicio de la renta.
+               Buscamos el máximo beneficio para el cliente, siempre bajo el paraguas de la ley.
+               El equipo de profesionales está en constante aprendizaje y renovación, atentos a todas las novedades, modificaciones y reformas de Ley que se introducen y que puedan tener repercusión en la Declaración de la Renta o sobre el Impuesto de Patrimonio.
+               Realizamos simulacros previos a la aceptación de su declaración para que conozca con exactitud el resultado de su ejercicio.
+               Ofrece un servicio de calidad y personalizado gracias a un equipo de profesionales de confianza, preparados para atenderle de forma directa en cualquier momento.
+            </p>
+         </div>
+         <div class="col-md-5">
+            <img class="foto3" src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/89.jpeg?v=1654547814163" alt="" width="500px" height="400px">
+         </div>
+      </div>
+      <hr class="featurette-divider">
+      </div>
+      <a href="https://goo.gl/maps/VHGeQxPrF8BvjA1Z8" target="_blank">
+         <div id="lugar" class="QMbmRe"  title="Mapa que muestra la ubicación de la empresa.">
+         </div>
       </a>
-    </footer>
-  </body>
-</html>
+      <hr class="WUdCTb">
+      <footer class="col-6 col-md">
+         <div class="row">
+            <div class="col-12 col-md">
+               <img src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/n.jpg?v=1654547700987" alt="" width="100px" height="100px">
+            </div>
+            <div class="col-6 col-md">
+               <h5>Contacto</h5>
+               <ul  class="list-unstyled text-small">
+                  <a class="link-secondary"  href="tel:+34667598480">
+                     <li>📱 667598480</li>
+                  </a>
+                  <a class="menu1" href="https://www.facebook.com/silvia.rodriguezgarrido/about_details" target=_blank > <img src="https://cdn.glitch.global/50f3e0b7-a8b6-49aa-b419-456b931a6cf0/fb.jpg?v=1654547919505" width="20px" height="20px"> </a>
+               </ul>
+            </div>
+            <div class="col-6 col-md">
+               <h5>Dirección</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="https://goo.gl/maps/VHGeQxPrF8BvjA1Z8">Calle Victoria número 3 en Santa Pola (Alicante)</a></li>
+               </ul>
+            </div>
+            <div class="col-6 col-md">
+               <h5>Horario de apertura</h5>
+               <ul class="list-unstyled text-small">
+                  <li>Horario de 9:15 a 13:30 </li>
+                  <li> por la tarde bajo cita previa.</li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
+   </body>
+  </html>
